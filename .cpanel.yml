@@ -1,0 +1,22 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/unpa1706/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp blog-home.html $DEPLOYPATH
+    - /bin/cp blog-single.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp course-details.html $DEPLOYPATH
+    - /bin/cp courses.html $DEPLOYPATH
+    - /bin/cp elements.html $DEPLOYPATH
+    - /bin/cp event-details.html $DEPLOYPATH
+    - /bin/cp events.html $DEPLOYPATH
+    - /bin/cp gallety.html $DEPLOYPATH
+    - /bin/cp .gitattributes $DEPLOYPATH
+    - /bin/cp mail.php $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R Education-Doc $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R scss $DEPLOYPATH
